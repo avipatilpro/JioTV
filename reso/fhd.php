@@ -1,5 +1,8 @@
 <html>
 <head>
+  
+  <!-- Avishkar Patil -->
+  
 <title>FHD | <?php echo $_REQUEST["c"]; ?> | LiveTV</title>
 <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/37fVLxB/f4027915ec9335046755d489a14472f2.png">
 <script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"></script>
@@ -118,7 +121,7 @@ html {
 </div>
 
 <div id="player">
-<video id="video" style="width:100%;height:97%;object-fit: fill;"></video>
+<video id="video" style="width:100%;height:100%;object-fit: fill;"></video>
 </div>
 <script>
   setTimeout(videovisible, 4000)
