@@ -127,7 +127,7 @@ function videovisible() {
     document.getElementById('loading').style.display = 'none'
 }
 
-var url="m3u8.php?c=<?php echo $_REQUEST["c"]; ?>&q=800&e=junk.m3u8";
+var url="../m3u8.php?c=<?php echo $_REQUEST["c"]; ?>&q=800&e=junk.m3u8";
 
 plyr.setup(video);
 
