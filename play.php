@@ -100,6 +100,18 @@ html {
         background-size: 35px auto, auto;
     }
 
+    .plyr__video-wrapper::after {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        z-index: 10;
+        content: '';
+        height: 35px;
+        width: 35px;
+        background: url('https://i.ibb.co/37fVLxB/f4027915ec9335046755d489a14472f2.png') no-repeat;
+        background-size: 35px auto, auto;
+    }
+
 </style>
 
 </head>
