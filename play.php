@@ -130,7 +130,7 @@ html {
 </div>
 
 <div id="player">
-<video id="video" style="width:100%;height:97%;object-fit: fill;"></video>
+<video id="video" style="width:100%;height:100%;object-fit: fill;"></video>
 </div>
 <script>
   setTimeout(videovisible, 4000)
@@ -160,6 +160,7 @@ plyr.setup(video);
 
   }
 
+  // Avishkar Patil
 
 </script>
 
