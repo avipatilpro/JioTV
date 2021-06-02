@@ -48,7 +48,6 @@
 
 <br>
 
-- <b>Thanks To</b> [Rocky2242](https://github.com/Rocky2242)
 
 ---
 <h4 align='center'>© 2021 Aνιѕнкαя Pαтιℓ</h4>
