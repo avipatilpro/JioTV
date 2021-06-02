@@ -3,7 +3,7 @@
 <!-- DO NOT EDIT FILE AND ADD YOU NAME HERE AND PUBLISH -->
 <!-- © 2021 AvishkarPatil -->
 
-<h4 align='center'>📺 The PHP Script For Grabb Streaming Links and Play it , This Workes Only on Indian Server and LocalHost [ VPS ] due to Geo-restrictions<br><br>🌟 Start This Repositry Befor Copying 😎<br>😠 Don't Remove Creadits</h4>
+<h4 align='center'>📺 The PHP Script For Grabb Streaming Links and Play it , This Workes Only on Indian Server and LocalHost [ VPS ] due to Geo-restrictions<br><br>🌟 Start This Repositry Befor Copying 😎<br>😠 Don't Remove Creadits<br>Don't Edit This Script 😈</h4>
 <br>
 
 <h2>😇 Features :</h2>
