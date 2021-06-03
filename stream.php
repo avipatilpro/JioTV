@@ -21,7 +21,7 @@ if(@$_REQUEST["key"]!="")
 "osVersion: 9\r\n" .
 "isott: true\r\n" .
 "languageId: 6\r\n" .
-"uniqueId: 45e59330-ffd8-4c6c-9985-fe89f22232eb\r\n" .
+"uniqueId: 45e59330-ffd8-4c6c-9985-fe89f22232eb\r\n" . # Change uniqueId if you chnaged token
 "srno: 200206173037\r\n" .
 "usergroup: tvYR7NSNn7rymo3F\r\n" .
 "channelid: 472\r\n" .
