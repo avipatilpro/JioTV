@@ -133,7 +133,7 @@ html {
 </div>
 
 <div id="player">
-<video id="video" style="width:100%;height:100%;object-fit: fill;"></video>
+<video id="video" style="width:100%;height:100%;"></video>
 </div>
 <script>
   setTimeout(videovisible, 4000)
