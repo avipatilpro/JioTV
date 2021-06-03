@@ -27,9 +27,9 @@
 • In Player Put Links Format Like Below
 
   ```py
-  [+] - http://localhost/jiotv.php?c=Channel_Name&q=Quality&e=play.m3u8
+  [+] - http://localhost/m3u8.php?c=Channel_Name&q=Quality&e=play.m3u8
   
-  [+] - http://localhost/jiotv.php?c=And_Pictures_HD&q=800&e=play.m3u8
+  [+] - http://localhost/m3u8.php?c=And_Pictures_HD&q=800&e=play.m3u8
   
   ```
 
