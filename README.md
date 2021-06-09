@@ -11,6 +11,7 @@
 - HQ Streaming Free of Cost <br>
 - Will Works In 250, 400, 600, 800, 1200 in this Gives Qualities
 - Web Play Supports
+- TiviMate or PC Users can Also Use This [PlayList.m3u](https://github.com/avipatilpro/JioTV/blob/main/playlist.m3u)
 
 <br>
 <h2>🍁 How To Use : </h2>
