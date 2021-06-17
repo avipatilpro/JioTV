@@ -9,9 +9,26 @@
 <h2>😇 Features :</h2>
 
 - HQ Streaming Free of Cost <br>
-- Will Works In 250, 400, 600, 800, 1200 in this Gives Qualities
+- Will Works In 250, 400, 600, 800 in this Gives Qualities
 - Web Play Supports
 - TiviMate or PC Users can Also Use This [PlayList.m3u](https://github.com/avipatilpro/JioTV/blob/main/playlist.m3u)
+
+<h3>😛 Genrate ssoToken Here :</h3>
+
+- For This You Need JioID Number and Password
+```py
+ https://jtok.herokuapp.com/?u=NUMBER&p=PASSWORD
+```
+- `u` = Username / Mobile No Without `+91`
+- `p` = Password
+
+<br>
+
+- If You Don't Know JioID and Pass then Simply Open Following URL in Jio Network Connected Device
+```py
+https://jtok.herokuapp.com/j/
+```
+
 
 <br>
 <h2>🍁 How To Use : </h2>
