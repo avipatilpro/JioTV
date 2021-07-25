@@ -35,7 +35,7 @@ https://jtok.herokuapp.com/j/
 
 #### ♢ Method 1 :
 
-• Put Your ssoToken in Files then
+• Put Your ssoToken and Unique id in Files then [token.php](https://github.com/avipatilpro/JioTV/blob/main/token.php) and [stream.php](https://github.com/avipatilpro/JioTV/blob/main/playlist.m3u) <br>
 • Locate all Files in LocalHost Root Folder <br>
 • Open localhost You Will See all Channels List <br>
 • Click On Channel and Play <br>
@@ -62,6 +62,7 @@ https://jtok.herokuapp.com/j/
 <h3>🤗 Meet Me : </h3>
 
 
+• 😪 check you did all things perfectly before contact [ Warning ] <br><br>
 • For any Support About Script contact [@AvishkarPatil](https://telegram.me/AvishkarPatil)  at Telegram <br>
 • Or Contact at [proavipatil@gmail.com](mailto:proavipatil@gmail.com)
 
