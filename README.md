@@ -8,10 +8,13 @@
 
 <h2>😇 Features :</h2>
 
-- HQ Streaming Free of Cost <br>
-- Will Works In 250, 400, 600, 800 in this Gives Qualities
-- Web Play Supports
-- TiviMate or PC Users can Also Use This [PlayList.m3u](https://github.com/avipatilpro/JioTV/blob/main/playlist.m3u)
+- *HQ Streaming* <br>
+- *Web Play Supports*
+- *TiviMate or PC Users can Also Use This* [PlayList.m3u](https://github.com/avipatilpro/JioTV/blob/main/playlist.m3u) <br>
+
+- ***IF YOU NOOB THEN DOWNLOAD THIS PLAYLIST ANY ENJOY 👉*** [Playlist](https://avipatilpro.github.io/JioTV/its_playlist.m3u) 
+
+ <br>
 
 <h3>😛 Genrate ssoToken Here :</h3>
 
