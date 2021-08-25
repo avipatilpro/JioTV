@@ -6,7 +6,6 @@
 <h4 align='center'>📺 The PHP Script For Grabb Streaming Links and Play it , This Workes Only on Indian Server and LocalHost [ VPS ] due to Geo-restrictions<br><br>🌟 Start This Repositry Befor Copying 😎<br><br>Put Your Own SsoToken and Other Details In This Script</h4>
 <br>
 
-<h4 align='center'>Working Demo : <a href='https://streamavi.ml/jio' alt='JioTV Avishkar'>Here</a></h5>
 
 <h2>😇 Features :</h2>
 
