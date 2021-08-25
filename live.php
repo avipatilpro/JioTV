@@ -38,7 +38,7 @@ $hs = str_replace("https://tv.media.jio.com/streams_hotstar/" . $_REQUEST["c"] .
 
 print $hs;
 
-    # © 2021 Avishkar Patil DO NOT EDIT ANYTHING TO KEEP RUNNING
+   
 
 }
 ?>
