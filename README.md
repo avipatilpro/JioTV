@@ -13,8 +13,6 @@
 - *Web Play Supports*
 - *TiviMate or PC Users can Also Use This* [PlayList.m3u](https://github.com/avipatilpro/JioTV/blob/main/playlist.m3u) <br>
 
-- ***IF YOU NOOB THEN DOWNLOAD THIS PLAYLIST ANY ENJOY 👉*** [Playlist](https://avipatilpro.github.io/JioTV/its_playlist.m3u) 
-
  <br>
 
 <h3>😛 Genrate ssoToken Here :</h3>
