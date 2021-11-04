@@ -49,7 +49,7 @@ https://jtok.herokuapp.com/j/
   ```py
   [+] - http://localhost/live.php?c=Channel_Name&q=Quality&e=play.m3u8
   
-  [+] - http://localhost/live.php?c=And_Pictures_HD&q=800&e=play.m3u8
+  [+] - http://localhost/live.php?c=And_Pictures_HD&q=1200&e=play.m3u8
   
   ```
 
