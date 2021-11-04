@@ -8,6 +8,8 @@ echo '#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=600000,RESOL
 echo 'http://localhost/live.php?c='.$_GET['c'].'&q=600&e=.m3u8'.PHP_EOL;
 echo '#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=800000,RESOLUTION=1280x720'.PHP_EOL;
 echo 'http://localhost/live.php?c='.$_GET['c'].'&q=800&e=.m3u8'.PHP_EOL;
+echo '#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=1200000,RESOLUTION=1920x1080'.PHP_EOL;
+echo 'http://localhost/live.php?c='.$_GET['c'].'&q=1200&e=.m3u8'.PHP_EOL;
 
 
 ?>
