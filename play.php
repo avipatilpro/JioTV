@@ -5,10 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/37fVLxB/f4027915ec9335046755d489a14472f2.png">
-<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-<script src="https://cdn.plyr.io/2.0.18/plyr.js"></script>
-<link rel="stylesheet" href="https://cdn.plyr.io/2.0.18/plyr.css">
+<link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+<link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet"/>
+<script src="https://cdn.plyr.io/3.6.3/plyr.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="assets/js/hide-banner.js"></script>
 <style>
 html {
   font-family: Poppins;
@@ -132,40 +134,44 @@ html {
 </div>
 </div>
 
-<div id="player">
-<video id="video" style="width:100%;height:100%;"></video>
-</div>
+<video hideControls="false" autoplay controls crossorigin poster="http://jiotv.catchup.cdn.jio.com/dare_images/images/<?php echo $_REQUEST["c"]; ?>.png" playsinline>
+
+    <source type="application/x-mpegURL" src="autoq.php?c=<?php echo $_REQUEST["c"]; ?>"> </video>
+</body>
 <script>
   setTimeout(videovisible, 4000)
-
 function videovisible() {
     document.getElementById('loading').style.display = 'none'
 }
-
-var url="live.php?c=<?php echo $_REQUEST["c"]; ?>&q=<?php echo $_REQUEST["q"]; ?>&e=junk.m3u8";
-
-plyr.setup(video);
-
- if(Hls.isSupported()) {
-    var video = document.getElementById('video');
-    var hls = new Hls();
-    hls.loadSource(url);
-    hls.attachMedia(video);
-    hls.on(Hls.Events.MANIFEST_PARSED,function() {
-      video.play();
-  });
- }
-  else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-    video.src = url;
-    video.addEventListener('canplay',function() {
-      video.play();
-    });
-
+document.addEventListener("DOMContentLoaded", () => {
+  const e = document.querySelector("video"),
+    n = e.getElementsByTagName("source")[0].src,
+    o = {};
+  if(Hls.isSupported()) {
+    var config = {
+      maxMaxBufferLength: 100,
+    };
+    const t = new Hls(config);
+    t.loadSource(n), t.on(Hls.Events.MANIFEST_PARSED, function(n, l) {
+      const s = t.levels.map(e => e.height);
+      o.quality = {
+        default: s[0],
+        options: s,
+        forced: !0,
+        onChange: e => (function(e) {
+          window.hls.levels.forEach((n, o) => {
+            n.height === e && (window.hls.currentLevel = o)
+          })
+        })(e)
+      };
+      new Plyr(e, o)
+    }), t.attachMedia(e), window.hls = t
+  } else {
+    new Plyr(e, o)
   }
-
-  // Avishkar Patil
+});
 
 </script>
 
-</body>
+ </body>
 </html>
