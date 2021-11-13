@@ -54,6 +54,7 @@ https://jtok.herokuapp.com/j/
   ```
 
    ♢ <b>Depnding on Your Server Change Links<br>
+   ♢ <b>If You Hosting On Your Server Then Please Update Path In This Files stream.php , live.php and autoq.php <br>
    ♢ This Script is free for USE and Modify</b><br><br>
 
 <h2>🚸 Warnings :</h2>
