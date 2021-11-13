@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-# © 2021 Avishkar Patil DO NOT EDIT ANYTHING TO KEEP RUNNING
+# © 2021 Avishkar Patil DO NOT EDIT ANYTHING TO KEEP RUNNING.
 # If Got Any Problem Contact at @AvishkarPatil on Telegram
 
 
