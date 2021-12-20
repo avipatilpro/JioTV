@@ -9,7 +9,7 @@
 
 $jctBase = "cutibeau2ic";
 
-$ssoToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWUiOiI2ZTlhY2RiOC1kMjVhLTQ0YTgtYTMwNi1hNTgwYmUwMTllYmEiLCJ1c2VyVHlwZSI6IlJJTHBlcnNvbiIsImF1dGhMZXZlbCI6IjEwIiwiZGV2aWNlSWQiOm51bGwsImp0aSI6IjdmNjUxMmQzLTNhOTktNGE0ZS1iYmM5LTAyMjA4MTEzMmY0OCIsImlhdCI6MTYzNjgxNzI4NX0.V5leIKc-8a7B-FNETg9rhxRZc18x-cEhygeFPtEKmVM"; #Change This with your SSOTOKEN 
+$ssoToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWUiOiI0N2RlZDFmMC0wZjU2LTQ3YzctYThiYS04NmQwODVhODM3YjYiLCJ1c2VyVHlwZSI6IlJJTHBlcnNvbiIsImF1dGhMZXZlbCI6IjEwIiwiZGV2aWNlSWQiOm51bGwsImp0aSI6IjgyNWI2YWVkLTQyNmItNGVkZi04ODZlLWIxMGY5ZTNmNDQ0YSIsImlhdCI6MTYzOTk2MzQ5M30.Jfoc1rDPtfB14BaqRieH0vuFuIHynKLiBxJ8W3lF35E"; #Change This with your SSOTOKEN 
 function tokformat($str)
 {
 $str= base64_encode(md5($str,true));
