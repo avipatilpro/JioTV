@@ -29,7 +29,7 @@ Don't Edit This Script smiling_imp
 
 ```
 
-• Download this ZIP File From [Here](https://github.com/avipatilpro/JioTV/blob/main/token.php)<br>
+• Download this ZIP File From [Here](https://github.com/avipatilpro/JioTV/releases/download/2.0/JioTV.zip)<br>
 • Extract in the on Mobile in htdocs Folder <br>
 • Start Localhost Server and Go To localhost:8080/login.php <br>
 • Put Jio Login Details and Submit <br>
@@ -43,7 +43,7 @@ Don't Edit This Script smiling_imp
 https://www.apachefriends.org/index.html
 
 ```
-• Download Given ZIP and Extract in htdocs Folder<br>
+• Download Given [ZIP](https://github.com/avipatilpro/JioTV/releases/download/2.0/JioTV.zip) and Extract in htdocs Folder<br>
 • Open localhost/login.php <br>
 • Put Jio Login Details and Submit <br>
 • Go Back To Home and Enjoy !
