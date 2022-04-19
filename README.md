@@ -3,7 +3,9 @@
 <!-- DO NOT EDIT FILE AND ADD YOU NAME HERE AND PUBLISH -->
 <!-- © 2021 AvishkarPatil -->
 
-<h4 align='center'>📺 The PHP Script For Grabb Streaming Links and Play it , This Workes Only on Indian Server and LocalHost [ VPS ] due to Geo-restrictions<br><br>🌟 Start This Repositry Befor Copying 😎<br><br>Put Your Own SsoToken and Other Details In This Script</h4>
+<h4 align='center'>📺 The PHP Script For Grabb Streaming Links and Play it , This Workes Only on Indian Server and LocalHost [ VPS ] due to Geo-restrictions<br><br>🌟 Start This Repositry Befor Copying 😎<br>angry Don't Remove Credits
+Don't Edit This Script smiling_imp
+<br><br>Put Your Own SsoToken and Other Details In This Script</h4>
 <br>
 
 
@@ -11,61 +13,65 @@
 
 - *HQ Streaming* <br>
 - *Web Play Supports*
-- *TiviMate or PC Users can Also Use This* [PlayList.m3u](https://github.com/avipatilpro/JioTV/blob/main/playlist.m3u) <br>
+- *TiviMate or PC Users can Also Use This*<br>
 
  <br>
 
-<h3>😛 Genrate ssoToken Here :</h3>
-
-- For This You Need JioID Number and Password
-```py
- https://jtok.herokuapp.com/?u=NUMBER&p=PASSWORD
-```
-- `u` = Username / Mobile No Without `+91`
-- `p` = Password
-
-<br>
-
-- If You Don't Know JioID and Pass then Simply Open Following URL in Jio Network Connected Device
-```py
-https://jtok.herokuapp.com/j/
-```
-
-
-<br>
 <h2>🍁 How To Use : </h2>
 
-#### ♢ Method 1 :
+#### ♢ For Mobiles / TV :
 
-• Put Your ssoToken and Unique id in Files then [token.php](https://github.com/avipatilpro/JioTV/blob/main/token.php) and [stream.php](https://github.com/avipatilpro/JioTV/blob/main/playlist.m3u) <br>
-• Locate all Files in LocalHost Root Folder <br>
-• Open localhost You Will See all Channels List <br>
-• Click On Channel and Play <br>
 
-#### ♢ Method 2 :
+• Download KSWEB PRO From Here :
 
-• In Player Put Links Format Like Below
+```py
+ https://s3.dlandroid.com/apps/KSWEB-server[dlandroid.com].apk
+
+```
+
+• Download this ZIP File From [Here](https://github.com/avipatilpro/JioTV/blob/main/token.php)<br>
+• Extract in the on Mobile in htdocs Folder <br>
+• Start Localhost Server and Go To localhost:8080/login.php <br>
+• Put Jio Login Details and Submit <br>
+• Go Back To Home and Enjoy !<br><br>
+
+#### ♢ For PC / Laptop :
+
+• Download XAMPP From Here<br>
+
+```py
+https://www.apachefriends.org/index.html
+
+```
+• Download Given ZIP and Extract in htdocs Folder<br>
+• Open localhost/login.php <br>
+• Put Jio Login Details and Submit <br>
+• Go Back To Home and Enjoy !
+
+
+```py
+[+] - You Can Also Host on Indian Server or VPS as you want .
+
+```
+<br>
+
+#### ♢ Playlist :
+
+• For Playlist Host This Files and Use Following
 
   ```py
-  [+] - http://localhost/live.php?c=Channel_Name&q=Quality&e=play.m3u8
-  
-  [+] - http://localhost/live.php?c=And_Pictures_HD&q=1200&e=play.m3u8
+  [+] - http://localhost:8080/JioTV/playlist.php
+  [+] - https://example.com/JioTV/playlist.php
   
   ```
+<br><br>
 
-   ♢ <b>Depnding on Your Server Change Links<br>
-   ♢ <b>If You Hosting On Your Server Then Please Update Path In This Files stream.php , live.php and autoq.php <br>
-   ♢ This Script is free for USE and Modify</b><br><br>
-
-<h2>🚸 Warnings :</h2>
-
-- This is Just For Educational Purpose
-- DO NOT Sell this Script, This is 💯% Free
+<h4>🚸 This is Just For Educational Purpose and Entertainment !</h4>
+<br>
 
 <h3>🤗 Meet Me : </h3>
 
-
-• 😪 check you did all things perfectly before contact [ Warning ] <br><br>
+• 😪 Check you did all This Perfectly Before Messaging [ Warning ] <br>
 • For any Support About Script contact [@AvishkarPatil](https://telegram.me/AvishkarPatil)  at Telegram <br>
 • Or Contact at [proavipatil@gmail.com](mailto:proavipatil@gmail.com)
 
@@ -73,7 +79,7 @@ https://jtok.herokuapp.com/j/
 
 
 ---
-<h4 align='center'>© 2021 Aνιѕнкαя Pαтιℓ</h4>
+<h4 align='center'>© 2022 Aνιѕнкαя Pαтιℓ</h4>
 
 <!-- DO NOT REMOVE THIS CREDIT 🤬 🤬 -->
 
