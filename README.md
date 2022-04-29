@@ -4,7 +4,7 @@
 <!-- © 2021 AvishkarPatil -->
 
 <h4 align='center'>📺 The PHP Script For Grabb Streaming Links and Play it , This Workes Only on Indian Server and LocalHost [ VPS ] due to Geo-restrictions<br><br>🌟 Start This Repositry Befor Copying 😎<br>angry Don't Remove Credits
-Don't Edit This Script smiling_imp
+Don't Edit This Script 
 <br><br>Put Your Own SsoToken and Other Details In This Script</h4>
 <br>
 
