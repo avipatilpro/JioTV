@@ -66,7 +66,7 @@ docker run -p 8080:80 -it jiotv
 ```
 Now u can go to
 ```py
-http://localhost:8080/login.php
+http://localhost:8080/JioTV/login.php
 ```
 <br>
 #### ♢ Playlist :
