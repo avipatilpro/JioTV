@@ -11,7 +11,8 @@ name: Create and publish a Docker image
 
 on:
   push:
-    branches: ['main']
+    tags:        
+    - '*'     
   workflow_dispatch:
 
 env:
