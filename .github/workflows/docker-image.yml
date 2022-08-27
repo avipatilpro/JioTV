@@ -51,4 +51,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: anshuman852/jiotv:latest
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
