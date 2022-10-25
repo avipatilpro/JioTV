@@ -1,5 +1,5 @@
+[![Docker](https://github.com/anshuman852/JioTV/actions/workflows/docker-image.yml/badge.svg?branch=main)](https://github.com/anshuman852/JioTV/actions/workflows/docker-image.yml)
 <h1 align='center'>✯ JɪᴏTV Pʟᴀʏ ✯</h1>
-
 <!-- DO NOT EDIT FILE AND ADD YOU NAME HERE AND PUBLISH -->
 <!-- © 2021 AvishkarPatil -->
 
