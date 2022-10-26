@@ -1,5 +1,5 @@
+[![Docker](https://github.com/anshuman852/JioTV/actions/workflows/docker-image.yml/badge.svg?branch=main)](https://github.com/anshuman852/JioTV/actions/workflows/docker-image.yml)
 <h1 align='center'>✯ JɪᴏTV Pʟᴀʏ ✯</h1>
-
 <!-- DO NOT EDIT FILE AND ADD YOU NAME HERE AND PUBLISH -->
 <!-- © 2021 AvishkarPatil -->
 
@@ -55,6 +55,20 @@ https://www.apachefriends.org/index.html
 ```
 <br>
 
+#### Docker:
+You can host host this using docker 
+```py
+docker build -t jiotv .
+```
+Then start the container by using
+```py
+docker run -p 8080:80 -it jiotv
+```
+Now u can go to
+```py
+http://localhost:8080/JioTV/login.php
+```
+<br>
 #### ♢ Playlist :
 
 • For Playlist Host This Files and Use Following
